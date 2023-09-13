@@ -1,14 +1,24 @@
 # PLC-Flutter Testing
 
-## MQTT Server
+## `MQTT Server`
 
-| Key  | Value |
-| ------------- | ------------- |
-| Domain  | services.bits-fusion.com  |
-| IP Addr  | 178.128.98.237  |
-| Port  | 1883  |
+|Params| Value |
+|--|--|
+| Domain  |` services.bits-fusion.com` |
+| IP Address | `178.128.98.237` |
+| Port | `1883` |
+| Username| |
+| Password| |
 
+> `Username` and `Password` are not required.
 
-| Topics  | Value |
-| P2F topic  | plc/sensors  |
-| F2P topic  | app/plc  |
+---
+
+## `MQTT Topics`
+
+|topic| description|
+|--|--|
+| `plc/app` | PLC publishes to this topic  | 
+| `app/plc` | PLC subscribes to this topic | 
+
+---
